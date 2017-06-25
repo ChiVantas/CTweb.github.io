@@ -1,0 +1,107 @@
+p {
+    color: white;
+    font-family: "Courier New";
+    text-align: right;
+    font-size: 18px;
+}
+h1{
+    font-family: "Courier New";
+    text-align: center;
+    border-style: double;
+    border-width: 12px;
+    border-color: magenta;
+    color: fuchsia;
+}
+
+.callout {
+    font-style: italic;
+    font-weight: 700;
+    color: coral;
+}
+div.Traditional{
+
+    width: 208px;
+    height: 300px;
+    float: right;
+}
+img{
+    width: 208px;
+    height: 300px;
+    float: left;
+}
+body{
+    background: url("CherryBlossom.jpg") no-repeat;
+    background-size: cover;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+    font-family: "Courier New";
+}
+
+li {
+     float: right;
+
+ }
+
+li a {
+    display: inline;
+    color: deeppink;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a:hover {
+    background-color: lightpink;
+    color: darkred;
+}
+h3{
+     font-family: "Courier New";
+     text-align: right;
+
+ }
+/* unvisited link */
+a:link {
+    color: maroon;
+}
+
+/* visited link */
+a:visited {
+    color: aliceblue;
+}
+
+/* mouse over link */
+a:hover {
+    color: darkred;
+    background-color: lightpink;
+}
+
+/* selected link */
+a:active {
+    color:white;
+}
+div.w{
+    background-color: lightcoral;
+    width: 200px
+    border: 15px;
+    padding: 15px;
+    margin: 15px;
+}
+div.f{
+
+    color: whitesmoke;
+    font-size: 15px;
+    text-align: right;
+    margin: 30px;
+}
+div.Men{
+    float: right;
+    width: 210px;
+
+
+}
